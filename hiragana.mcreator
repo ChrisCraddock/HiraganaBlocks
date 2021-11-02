@@ -1391,6 +1391,24 @@
         ]
       },
       "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "AddBlock",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "add_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
     }
   ],
   "variable_elements": [],
