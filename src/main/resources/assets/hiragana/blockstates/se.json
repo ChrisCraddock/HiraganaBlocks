@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hiragana:block/se"
+    },
+    "facing=east": {
+      "model": "hiragana:block/se",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hiragana:block/se",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hiragana:block/se",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "hiragana:block/se",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "hiragana:block/se",
+      "x": 90
+    }
+  }
+}
