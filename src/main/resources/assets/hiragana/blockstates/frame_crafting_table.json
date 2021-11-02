@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hiragana:block/frame_crafting_table"
+    },
+    "facing=east": {
+      "model": "hiragana:block/frame_crafting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hiragana:block/frame_crafting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hiragana:block/frame_crafting_table",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "hiragana:block/frame_crafting_table",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "hiragana:block/frame_crafting_table",
+      "x": 90
+    }
+  }
+}

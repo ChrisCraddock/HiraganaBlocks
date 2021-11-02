@@ -10,7 +10,9 @@ import net.minecraftforge.fml.network.IContainerFactory;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -28,6 +30,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.hiragana.procedures.SubtractCountFrromSlot23Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot9Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot8Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot7Procedure;
@@ -61,7 +64,6 @@ import net.mcreator.hiragana.procedures.SubtractCountFromSlot27Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot26Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot25Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot24Procedure;
-import net.mcreator.hiragana.procedures.SubtractCountFromSlot23Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot22Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot21Procedure;
 import net.mcreator.hiragana.procedures.SubtractCountFromSlot20Procedure;
@@ -96,6 +98,7 @@ public class CraftingGUIGui extends HiraganaModElements.ModElement {
 				GUISlotChangedMessage::handler);
 		containerType = new ContainerType<>(new GuiContainerModFactory());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ContainerRegisterHandler());
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
@@ -106,6 +109,22 @@ public class CraftingGUIGui extends HiraganaModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
 		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, CraftingGUIGuiWindow::new));
+	}
+
+	@SubscribeEvent
+	public void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		PlayerEntity entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.openContainer instanceof GuiContainerMod) {
+			World world = entity.world;
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				SubtractCountFromSlot0Procedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -174,6 +193,12 @@ public class CraftingGUIGui extends HiraganaModElements.ModElement {
 					ItemStack retval = super.onTake(entity, stack);
 					GuiContainerMod.this.slotChanged(0, 1, 0);
 					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(0, 2, b.getCount() - a.getCount());
 				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 20) {
@@ -1060,10 +1085,18 @@ public class CraftingGUIGui extends HiraganaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				AddBlockProcedure.executeProcedure($_dependencies);
+				SubtractCountFromSlot0Procedure.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 0 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				SubtractCountFromSlot0Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 0 && changeType == 2) {
+			int amount = meta;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
@@ -1228,7 +1261,7 @@ public class CraftingGUIGui extends HiraganaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				SubtractCountFromSlot23Procedure.executeProcedure($_dependencies);
+				SubtractCountFrromSlot23Procedure.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 24 && changeType == 1) {

@@ -1,0 +1,204 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "FrameSubtractCountFromSlot0"
+          },
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot0"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot0"
+          },
+          "name": "Slot #0",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot1"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot1"
+          },
+          "name": "Slot #1",
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot2"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot2"
+          },
+          "name": "Slot #2",
+          "x": 213,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot3"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot3"
+          },
+          "name": "Slot #3",
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot4"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot4"
+          },
+          "name": "Slot #4",
+          "x": 195,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot5"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot5"
+          },
+          "name": "Slot #5",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot6"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot6"
+          },
+          "name": "Slot #6",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot7"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot7"
+          },
+          "name": "Slot #7",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "FrameSubtractCountFromSlot8"
+          },
+          "onStackTransfer": {
+            "name": "FrameSubtractCountFromSlot8"
+          },
+          "name": "Slot #8",
+          "x": 231,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "AddBlockFrame"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 150,
+          "y": 89
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "FrameSubtractCountFromSlot0"
+    },
+    "onTick": {
+      "name": "FrameSubtractCountFromSlot0"
+    },
+    "onClosed": {
+      "name": "FrameSubtractCountFromSlot0"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

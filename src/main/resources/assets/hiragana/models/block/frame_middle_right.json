@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hiragana:blocks/plainbackground",
+    "up": "hiragana:blocks/plainbackground",
+    "north": "hiragana:blocks/framemiddleright",
+    "east": "hiragana:blocks/framemiddleright",
+    "south": "hiragana:blocks/framemiddleright",
+    "west": "hiragana:blocks/framemiddleright",
+    "particle": "hiragana:blocks/plainbackground"
+  }
+}

@@ -41,7 +41,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -69,7 +69,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -97,7 +97,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -125,7 +125,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -153,7 +153,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -181,7 +181,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -209,7 +209,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -237,7 +237,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -265,7 +265,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -293,7 +293,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -321,7 +321,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -349,7 +349,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -377,7 +377,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -405,7 +405,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -433,7 +433,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -461,7 +461,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -489,7 +489,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -517,7 +517,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -545,7 +545,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -573,7 +573,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -601,7 +601,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -629,7 +629,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -657,7 +657,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -685,7 +685,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -713,7 +713,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -741,7 +741,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -769,7 +769,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -797,7 +797,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -825,7 +825,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -853,7 +853,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -881,7 +881,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -909,7 +909,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -937,7 +937,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -965,7 +965,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -993,7 +993,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1021,7 +1021,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1049,7 +1049,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1077,7 +1077,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1105,7 +1105,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1133,7 +1133,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1161,7 +1161,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1189,7 +1189,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1217,7 +1217,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1245,7 +1245,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1273,7 +1273,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1301,7 +1301,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1329,7 +1329,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}
@@ -1357,7 +1357,7 @@ public class SubtractCountFromSlot16Procedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0)))));
+						}.getAmount((int) (16)))));
 						_current.detectAndSendChanges();
 					}
 				}

@@ -907,9 +907,27 @@
       "path": "~/Crafting/Logic"
     },
     {
+      "name": "AddBlock",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "add_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
       "name": "SubtractCountFromSlot22",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -925,13 +943,13 @@
       "path": "~/Crafting/Logic"
     },
     {
-      "name": "SubtractCountFromSlot23",
+      "name": "SubtractCountFrromSlot23",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "subtract_count_from_slot_23",
+      "registry_name": "subtract_count_frrom_slot_23",
       "metadata": {
         "dependencies": [
           {
@@ -945,7 +963,7 @@
     {
       "name": "SubtractCountFromSlot24",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -963,7 +981,7 @@
     {
       "name": "SubtractCountFromSlot25",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -981,7 +999,7 @@
     {
       "name": "SubtractCountFromSlot26",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -999,7 +1017,7 @@
     {
       "name": "SubtractCountFromSlot27",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1017,7 +1035,7 @@
     {
       "name": "SubtractCountFromSlot28",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1035,7 +1053,7 @@
     {
       "name": "SubtractCountFromSlot29",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1053,7 +1071,7 @@
     {
       "name": "SubtractCountFromSlot30",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1071,7 +1089,7 @@
     {
       "name": "SubtractCountFromSlot31",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1089,7 +1107,7 @@
     {
       "name": "SubtractCountFromSlot32",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1107,7 +1125,7 @@
     {
       "name": "SubtractCountFromSlot33",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1125,7 +1143,7 @@
     {
       "name": "SubtractCountFromSlot34",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1143,7 +1161,7 @@
     {
       "name": "SubtractCountFromSlot35",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1161,7 +1179,7 @@
     {
       "name": "SubtractCountFromSlot36",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1179,7 +1197,7 @@
     {
       "name": "SubtractCountFromSlot37",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1197,7 +1215,7 @@
     {
       "name": "SubtractCountFromSlot38",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1215,7 +1233,7 @@
     {
       "name": "SubtractCountFromSlot39",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1233,7 +1251,7 @@
     {
       "name": "SubtractCountFromSlot40",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1251,7 +1269,7 @@
     {
       "name": "SubtractCountFromSlot41",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1269,7 +1287,7 @@
     {
       "name": "SubtractCountFromSlot42",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1287,7 +1305,7 @@
     {
       "name": "SubtractCountFromSlot43",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1305,7 +1323,7 @@
     {
       "name": "SubtractCountFromSlot44",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1323,7 +1341,7 @@
     {
       "name": "SubtractCountFromSlot45",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1341,7 +1359,7 @@
     {
       "name": "SubtractCountFromSlot46",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1359,7 +1377,7 @@
     {
       "name": "SubtractCountFromSlot47",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1377,7 +1395,7 @@
     {
       "name": "SubtractCountFromSlot48",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1393,13 +1411,123 @@
       "path": "~/Crafting/Logic"
     },
     {
-      "name": "AddBlock",
-      "type": "procedure",
-      "sortid": 101,
+      "name": "HiraganaCraftingTable",
+      "type": "recipe",
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "add_block",
+      "registry_name": "hiragana_crafting_table",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "FrameTopLeft",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_top_left",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameTopMiddle",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_top_middle",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameTopRight",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_top_right",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameMiddleLeft",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_middle_left",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameMiddleRight",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_middle_right",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameBottomLeft",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_bottom_left",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameBottomMiddle",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_bottom_middle",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameBottomRight",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_bottom_right",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FrameCraftingTable",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_crafting_table",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "FrameCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_crafting_table_recipe",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot0",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_0",
       "metadata": {
         "dependencies": [
           {
@@ -1409,6 +1537,178 @@
         ]
       },
       "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot1",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot2",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot3",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot4",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot5",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot6",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot7",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameSubtractCountFromSlot8",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_subtract_count_from_slot_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "AddBlockFrame",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "add_block_frame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crafting/Logic"
+    },
+    {
+      "name": "FrameGUI",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frame_gui",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -1422,22 +1722,29 @@
       "block.hiragana.mo": "mo",
       "block.hiragana.yu": "yu",
       "block.hiragana.mi": "mi",
+      "block.hiragana.frame_bottom_left": "Frame Bottom Left",
       "block.hiragana.me": "me",
       "block.hiragana.crafting_table": "Crafting Table",
       "block.hiragana.chi": "chi",
       "block.hiragana.yo": "yo",
       "block.hiragana.ma": "ma",
+      "block.hiragana.frame_middle_left": "Frame Middle Left",
+      "block.hiragana.frame_bottom_right": "Frame Bottom Right",
       "block.hiragana.sa": "sa",
       "block.hiragana.we": "we",
       "block.hiragana.fu": "fu",
       "block.hiragana.wa": "wa",
       "block.hiragana.nu": "nu",
       "block.hiragana.ru": "ru",
+      "block.hiragana.frame_bottom_middle": "Frame Bottom Middle",
       "block.hiragana.no": "no",
+      "block.hiragana.frame_top_right": "Frame Top Right",
       "block.hiragana.ro": "ro",
       "block.hiragana.ni": "ni",
       "block.hiragana.ri": "ri",
       "block.hiragana.ne": "ne",
+      "block.hiragana.frame_top_middle": "Frame Top Middle",
+      "block.hiragana.frame_crafting_table": "Frame Crafting Table",
       "block.hiragana.na": "na",
       "block.hiragana.re": "re",
       "block.hiragana.ta": "ta",
@@ -1452,6 +1759,7 @@
       "block.hiragana.ka": "ka",
       "block.hiragana.wi": "wi",
       "block.hiragana.se": "se",
+      "block.hiragana.frame_middle_right": "Frame Middle Right",
       "block.hiragana.ya": "ya",
       "block.hiragana.shi": "shi",
       "block.hiragana.ho": "ho",
@@ -1464,6 +1772,7 @@
       "block.hiragana.ha": "ha",
       "block.hiragana.e": "e",
       "block.hiragana.a": "a",
+      "block.hiragana.frame_top_left": "Frame Top Left",
       "block.hiragana.te": "te"
     }
   },

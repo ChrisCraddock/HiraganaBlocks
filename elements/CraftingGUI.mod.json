@@ -20,9 +20,12 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "AddBlock"
+            "name": "SubtractCountFromSlot0"
           },
           "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot0"
+          },
+          "onStackTransfer": {
             "name": "SubtractCountFromSlot0"
           },
           "name": "Slot #0",
@@ -351,7 +354,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
-            "name": "SubtractCountFromSlot23"
+            "name": "SubtractCountFrromSlot23"
           },
           "name": "Slot #23",
           "x": 186,
@@ -918,6 +921,9 @@
         }
       }
     ],
+    "onTick": {
+      "name": "SubtractCountFromSlot0"
+    },
     "onClosed": {
       "name": "SubtractCountFromSlot0"
     },

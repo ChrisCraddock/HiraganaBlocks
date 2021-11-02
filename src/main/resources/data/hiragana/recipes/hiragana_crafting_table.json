@@ -1,0 +1,16 @@
+{
+  "group": "hiragana",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "hiragana:crafting_table",
+    "count": 1
+  }
+}
