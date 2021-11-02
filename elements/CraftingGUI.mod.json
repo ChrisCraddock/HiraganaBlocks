@@ -19,6 +19,12 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddBlock"
+          },
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot0"
+          },
           "name": "Slot #0",
           "x": 96,
           "y": 80
@@ -33,6 +39,9 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot1"
+          },
           "name": "Slot #1",
           "x": 114,
           "y": 26
@@ -47,6 +56,9 @@
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot2"
+          },
           "name": "Slot #2",
           "x": 132,
           "y": 26
@@ -58,6 +70,9 @@
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot3"
+          },
           "name": "Slot #3",
           "x": 150,
           "y": 26
@@ -69,6 +84,9 @@
           "id": 4,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot4"
+          },
           "name": "Slot #4",
           "x": 168,
           "y": 26
@@ -80,6 +98,9 @@
           "id": 5,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot5"
+          },
           "name": "Slot #5",
           "x": 186,
           "y": 26
@@ -91,6 +112,9 @@
           "id": 6,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot6"
+          },
           "name": "Slot #6",
           "x": 204,
           "y": 26
@@ -102,6 +126,9 @@
           "id": 7,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot7"
+          },
           "name": "Slot #7",
           "x": 222,
           "y": 26
@@ -113,6 +140,9 @@
           "id": 8,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot8"
+          },
           "name": "Slot #8",
           "x": 240,
           "y": 26
@@ -124,6 +154,9 @@
           "id": 9,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot9"
+          },
           "name": "Slot #9",
           "x": 258,
           "y": 26
@@ -135,6 +168,9 @@
           "id": 10,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot10"
+          },
           "name": "Slot #10",
           "x": 276,
           "y": 26
@@ -146,6 +182,9 @@
           "id": 11,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot11"
+          },
           "name": "Slot #11",
           "x": 294,
           "y": 26
@@ -157,6 +196,9 @@
           "id": 12,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot12"
+          },
           "name": "Slot #12",
           "x": 132,
           "y": 44
@@ -168,6 +210,9 @@
           "id": 13,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot13"
+          },
           "name": "Slot #13",
           "x": 150,
           "y": 44
@@ -179,6 +224,9 @@
           "id": 14,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot14"
+          },
           "name": "Slot #14",
           "x": 186,
           "y": 44
@@ -190,6 +238,9 @@
           "id": 15,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot14"
+          },
           "name": "Slot #15",
           "x": 204,
           "y": 44
@@ -201,6 +252,9 @@
           "id": 16,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot16"
+          },
           "name": "Slot #16",
           "x": 222,
           "y": 44
@@ -212,6 +266,9 @@
           "id": 17,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot17"
+          },
           "name": "Slot #17",
           "x": 240,
           "y": 44
@@ -223,6 +280,9 @@
           "id": 18,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot18"
+          },
           "name": "Slot #18",
           "x": 258,
           "y": 44
@@ -234,6 +294,9 @@
           "id": 19,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot19"
+          },
           "name": "Slot #19",
           "x": 276,
           "y": 44
@@ -245,6 +308,9 @@
           "id": 20,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot20"
+          },
           "name": "Slot #20",
           "x": 294,
           "y": 44
@@ -256,6 +322,9 @@
           "id": 21,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot21"
+          },
           "name": "Slot #21",
           "x": 150,
           "y": 62
@@ -267,6 +336,9 @@
           "id": 22,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot22"
+          },
           "name": "Slot #22",
           "x": 168,
           "y": 62
@@ -278,6 +350,9 @@
           "id": 23,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot23"
+          },
           "name": "Slot #23",
           "x": 186,
           "y": 62
@@ -289,6 +364,9 @@
           "id": 24,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot24"
+          },
           "name": "Slot #24",
           "x": 204,
           "y": 62
@@ -300,6 +378,9 @@
           "id": 25,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot25"
+          },
           "name": "Slot #25",
           "x": 222,
           "y": 62
@@ -311,6 +392,9 @@
           "id": 26,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot26"
+          },
           "name": "Slot #26",
           "x": 240,
           "y": 62
@@ -322,6 +406,9 @@
           "id": 27,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot27"
+          },
           "name": "Slot #27",
           "x": 258,
           "y": 62
@@ -333,6 +420,9 @@
           "id": 28,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot28"
+          },
           "name": "Slot #28",
           "x": 276,
           "y": 62
@@ -344,6 +434,9 @@
           "id": 29,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot29"
+          },
           "name": "Slot #29",
           "x": 294,
           "y": 62
@@ -355,6 +448,9 @@
           "id": 30,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot30"
+          },
           "name": "Slot #30",
           "x": 132,
           "y": 80
@@ -366,6 +462,9 @@
           "id": 31,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot31"
+          },
           "name": "Slot #31",
           "x": 150,
           "y": 80
@@ -377,6 +476,9 @@
           "id": 32,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot32"
+          },
           "name": "Slot #32",
           "x": 186,
           "y": 80
@@ -388,6 +490,9 @@
           "id": 33,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot33"
+          },
           "name": "Slot #33",
           "x": 204,
           "y": 80
@@ -399,6 +504,9 @@
           "id": 34,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot34"
+          },
           "name": "Slot #34",
           "x": 222,
           "y": 80
@@ -410,6 +518,9 @@
           "id": 35,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot35"
+          },
           "name": "Slot #35",
           "x": 240,
           "y": 80
@@ -421,6 +532,9 @@
           "id": 36,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot36"
+          },
           "name": "Slot #36",
           "x": 258,
           "y": 80
@@ -432,6 +546,9 @@
           "id": 37,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot37"
+          },
           "name": "Slot #37",
           "x": 276,
           "y": 80
@@ -443,6 +560,9 @@
           "id": 38,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot38"
+          },
           "name": "Slot #38",
           "x": 294,
           "y": 80
@@ -454,6 +574,9 @@
           "id": 39,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot39"
+          },
           "name": "Slot #39",
           "x": 132,
           "y": 98
@@ -465,6 +588,9 @@
           "id": 40,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot40"
+          },
           "name": "Slot #40",
           "x": 150,
           "y": 98
@@ -476,6 +602,9 @@
           "id": 41,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot41"
+          },
           "name": "Slot #41",
           "x": 168,
           "y": 98
@@ -487,6 +616,9 @@
           "id": 42,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot42"
+          },
           "name": "Slot #42",
           "x": 186,
           "y": 98
@@ -498,6 +630,9 @@
           "id": 43,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot43"
+          },
           "name": "Slot #43",
           "x": 204,
           "y": 98
@@ -509,6 +644,9 @@
           "id": 44,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot44"
+          },
           "name": "Slot #44",
           "x": 222,
           "y": 98
@@ -520,6 +658,9 @@
           "id": 45,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot45"
+          },
           "name": "Slot #45",
           "x": 240,
           "y": 98
@@ -531,6 +672,9 @@
           "id": 46,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot46"
+          },
           "name": "Slot #46",
           "x": 258,
           "y": 98
@@ -542,6 +686,9 @@
           "id": 47,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot47"
+          },
           "name": "Slot #47",
           "x": 276,
           "y": 98
@@ -553,6 +700,9 @@
           "id": 48,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "SubtractCountFromSlot48"
+          },
           "name": "Slot #48",
           "x": 294,
           "y": 98
@@ -757,6 +907,9 @@
         "type": "button",
         "data": {
           "text": "+1",
+          "onClick": {
+            "name": "AddBlock"
+          },
           "width": 35,
           "height": 20,
           "name": "+1",
@@ -765,6 +918,9 @@
         }
       }
     ],
+    "onClosed": {
+      "name": "SubtractCountFromSlot0"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
